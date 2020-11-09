@@ -1,0 +1,222 @@
+h1,h2
+{
+  font-family: 'Roboto';
+  font-style: normal;
+}
+
+p,nav,input
+{
+  font-family: 'Lora', serif;
+  font-style: normal;
+}
+
+
+
+header{
+  background-color: #CECECE;
+  height: 70px;
+}
+
+nav{
+  background-color: #F2F2F2;
+  padding: 8px;
+}
+
+
+h1{
+  text-align: center;
+  padding: 20px;
+}
+
+h2{
+  text-align: center;
+  padding:10px;
+  margin: 3px 5px 10px 10px;
+}
+
+p
+{
+  padding:10px;
+  margin: 3px 5px 10px 10px;
+  font-size: 16px;
+}
+
+
+section
+{
+  background-color: rgb(255, 255, 255);
+  height: 400px;
+  padding:30px;
+  margin: 3px 5px 10px 10px;
+ 
+  
+
+}
+
+.quotes{
+  background-color:#F3F3F3;
+  height: 200px;
+
+
+
+}
+
+
+
+a{
+  margin-left: 10px;
+  color: black;
+  font-weight: bold;
+  text-decoration:none;
+}
+
+
+nav a.active {
+  background-color: #9a9a9a;
+  color: white;
+  height: 10px;
+  padding: 7px;
+  margin: 4px 5px 0px -7px;
+}
+
+
+
+
+div{
+  padding: 5px;
+  margin: 10px 20px 10px 20px;
+}
+
+
+img{
+  width:400px;
+}
+
+
+.flex-container {
+  display: flex;
+  flex-direction: row;
+  font-size: 30px;
+  text-align: center;
+  padding: 5px;
+  margin: -44px -11px -14px -5px;
+}
+
+
+.flex-form {
+  display: flex;
+  flex-direction: row;
+  font-size: 30px;
+  text-align: center;
+}
+
+
+p.form{
+  padding:20px;
+  margin: 3px 5px 10px 10px;
+  
+}
+
+
+footer{
+  background-color: rgb(255, 255, 255);
+}
+
+
+p.footer{
+  text-align: right;
+}
+
+form{
+  background-color:#DEDEDE;
+  height:250px;
+}
+
+
+#submit{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
+
+
+
+#inputbox{
+  height:30px;
+}
+#messageinputbox{
+  height:50px;
+  width: 300px;
+}
+
+
+
+@media (max-width: 800px) {
+  .flex-container {
+    flex-direction: column;
+  }
+
+  img{
+  width:250px;
+  
+  }
+
+   form{
+  background-color:#DEDEDE;
+  height: 350px;
+  }
+  
+  }
+  
+
+  
+@media (max-width: 500px)
+{
+  h1{
+  text-align: center;
+  padding: 10px;
+  font-size: 30px;
+  }
+
+  header{
+  height: 90px;
+  max-width:100%;
+  }  
+
+
+
+  section
+  {
+  background-color: rgb(255, 255, 255);
+  height: 500px;
+  }
+
+  p.footer{
+  text-align: right;
+  font-size:12px;
+  }
+
+
+}
+
+
+
+@media (max-width: 350px)
+{
+
+  img{
+  width: 204px;
+  height: 159px;
+  }
+
+  #messageinputbox {
+    height: 50px;
+    width: 215px;
+}
+
+
+}
+
+
